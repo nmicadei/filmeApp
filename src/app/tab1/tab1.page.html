@@ -1,37 +1,95 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-     Filme 
+     Filme
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
- 
-  <ion-thumbnail class="img">
-    <img src="https://br.web.img3.acsta.net/medias/nmedia/18/92/91/32/20224832.jpg">
-    <ion-label>Item Thumbnail</ion-label>
-  </ion-thumbnail>
 
-  <ion-thumbnail class="img">
-    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
-    <ion-label>Item Thumbnail</ion-label>
-  </ion-thumbnail>
+  <ion-item class="cadrado">
+    <ion-thumbnail slot="start" >
+      <img src="https://br.web.img3.acsta.net/medias/nmedia/18/92/91/32/20224832.jpg">
+    </ion-thumbnail>
+    <ion-label>
+      <div class="parada">
+        <h1>Bulbasaur</h1>
+        <br>
+       <ion-badge class="texto" color ="success">Grama</ion-badge>
+       <br>
+       <ion-badge class="texto" color="tertiary">venenoso</ion-badge>
+    </div>
+    </ion-label>
+    <ion-chip color ="success">
+      <ion-label>n° 001</ion-label>
+    </ion-chip>
+  </ion-item>
 
-  <ion-thumbnail class="img">
-    <img src="https://upload.wikimedia.org/wikipedia/pt/0/0d/EsdlaIII.jpg">
-    <ion-label>Item Thumbnail</ion-label>
-  </ion-thumbnail>
+  <ion-item class="cadrado" >
+    <ion-thumbnail slot="start" >
+      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png">
+    </ion-thumbnail>
+    <ion-label>
+      <div  class="parada">
+        <h1>Charmander</h1>
+        <br>
+        <ion-badge color ="danger">fogo</ion-badge>
+    </div>
+    </ion-label>
+    <ion-chip color ="success">
+      <ion-label>n° 004</ion-label>
+    </ion-chip>
+  </ion-item>
 
-  <ion-thumbnail class="img">
-    <img src="https://br.web.img3.acsta.net/medias/nmedia/18/92/91/32/20224832.jpg">
-    <ion-label>Item Thumbnail</ion-label>
-  </ion-thumbnail>
+  <ion-item class="cadrado" >
+    <ion-thumbnail slot="start">
+      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png">
+    </ion-thumbnail>
+    <ion-label>
+      <div class="parada">
+        <h1>Squirtle</h1>
+        <br>
+        <ion-badge  color ="secondary">agua</ion-badge>
+    </div>
+    </ion-label>
+    <ion-chip color ="success">
+      <ion-label>n° 007</ion-label>
+    </ion-chip>
+  </ion-item>
 
-  <ion-thumbnail class="img">
-    <img src="https://br.web.img3.acsta.net/medias/nmedia/18/92/91/32/20224832.jpg">
-    <ion-label>Item Thumbnail</ion-label>
-  </ion-thumbnail>
+  <ion-item class="cadrado" >
+    <ion-thumbnail slot="start" >
+      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png">
+    </ion-thumbnail>
+    <ion-label>
+      <div class="parada">
+        <h1>Pikachu</h1>
+        <br>
+        <ion-badge color ="warning">eletrico</ion-badge>
+    </div>
+    </ion-label>
+    <ion-chip color ="success">
+      <ion-label>n° 025</ion-label>
+    </ion-chip>
+  </ion-item>
 
- 
+  <ion-item class="cadrado" >
+    <ion-thumbnail slot="start" >
+      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/373.png">
+    </ion-thumbnail>
+    <ion-label>
+      <div class="parada">
+        <h1>Salamence</h1>
+        <br>
+        <ion-badge class="texto1" color ="success">Dragão</ion-badge>
+        <br>
+        <ion-badge class="texto2" color ="success">voador</ion-badge>
+    </div>
+    </ion-label>
+    <ion-chip color ="success">
+      <ion-label>n° 373</ion-label>
+    </ion-chip>
+  </ion-item>
+
 </ion-content>

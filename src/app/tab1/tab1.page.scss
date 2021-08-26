@@ -1,7 +1,31 @@
-ion-title{
-text-align: center;
+.parada{
+  h1{
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  p{
+    font-size: 15px;
+  }
+height: 85px;
+
 }
 
-.img{
-    size: 25px;
+.cadrado{
+border:2px solid rgb(121, 121, 121);
+}
+
+.texto1{
+    font-size: 12px;
+    color: black;
+
+      background-image: linear-gradient(rgb(47, 105, 230) 50%, rgb(253, 43, 43) 50%);
+
+}
+
+.texto2{
+  font-size: 12px;
+  color: black;
+
+    background-image: linear-gradient(rgb(79, 132, 248) 50%, rgb(112, 112, 112) 50%);
+
 }
