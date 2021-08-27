@@ -1,95 +1,101 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-     Filme
-    </ion-title>
+    <ion-title> Filme </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
+  <ion-searchbar placeholder="buscar filmes"></ion-searchbar>
 
-  <ion-item class="cadrado">
-    <ion-thumbnail slot="start" >
-      <img src="https://br.web.img3.acsta.net/medias/nmedia/18/92/91/32/20224832.jpg">
-    </ion-thumbnail>
-    <ion-label>
-      <div class="parada">
-        <h1>Bulbasaur</h1>
-        <br>
-       <ion-badge class="texto" color ="success">Grama</ion-badge>
-       <br>
-       <ion-badge class="texto" color="tertiary">venenoso</ion-badge>
-    </div>
-    </ion-label>
-    <ion-chip color ="success">
-      <ion-label>n° 001</ion-label>
-    </ion-chip>
-  </ion-item>
 
-  <ion-item class="cadrado" >
-    <ion-thumbnail slot="start" >
-      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png">
-    </ion-thumbnail>
-    <ion-label>
-      <div  class="parada">
-        <h1>Charmander</h1>
-        <br>
-        <ion-badge color ="danger">fogo</ion-badge>
-    </div>
-    </ion-label>
-    <ion-chip color ="success">
-      <ion-label>n° 004</ion-label>
-    </ion-chip>
-  </ion-item>
+  <ion-list>
+    <ion-item routerLink="/senhordosaneis" lines="full">
+      <img src="https://br.web.img3.acsta.net/medias/nmedia/18/92/91/32/20224832.jpg" alt="nao tem foto" class="filme">
+      <ion-label class ="ion-text-wrap">
+        <div>
+          <h3>Senhor dos aneis e a sociedade do anel</h3>
+          <p class="data">1/01/2002 (BR)</p>
+          <ion-badge color="cinza">Fantasia</ion-badge>
+          <ion-badge color="cinza">aventura</ion-badge><br>
+          <ion-badge color="cinza">Ação</ion-badge>
+        </div>
+      </ion-label>
+      <ion-chip class="nota" color="success" outline>
+        <ion-label>84%</ion-label>
+      </ion-chip>
+    </ion-item>
 
-  <ion-item class="cadrado" >
-    <ion-thumbnail slot="start">
-      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png">
-    </ion-thumbnail>
-    <ion-label>
-      <div class="parada">
-        <h1>Squirtle</h1>
-        <br>
-        <ion-badge  color ="secondary">agua</ion-badge>
-    </div>
-    </ion-label>
-    <ion-chip color ="success">
-      <ion-label>n° 007</ion-label>
-    </ion-chip>
-  </ion-item>
 
-  <ion-item class="cadrado" >
-    <ion-thumbnail slot="start" >
-      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png">
-    </ion-thumbnail>
-    <ion-label>
-      <div class="parada">
-        <h1>Pikachu</h1>
-        <br>
-        <ion-badge color ="warning">eletrico</ion-badge>
-    </div>
-    </ion-label>
-    <ion-chip color ="success">
-      <ion-label>n° 025</ion-label>
-    </ion-chip>
-  </ion-item>
+    <ion-item routerLink="/gemea" lines="full">
+      <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/cklXRmdNUmXSkM0gMAz30pkzGGx.jpg" alt="nao tem foto" class="filme">
+      <ion-label class ="ion-text-wrap">
+        <div>
+          <h3>Cada um tem a gemea que merece</h3>
+          <p class="data">11/11/2011 (BR)</p>
+          <ion-badge color="cinza">Comedia</ion-badge>
+        </div>
+      </ion-label>
+      <ion-chip class="nota" color="warning" outline>
+        <ion-label>43%</ion-label>
+      </ion-chip>
+    </ion-item>
 
-  <ion-item class="cadrado" >
-    <ion-thumbnail slot="start" >
-      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/373.png">
-    </ion-thumbnail>
-    <ion-label>
-      <div class="parada">
-        <h1>Salamence</h1>
-        <br>
-        <ion-badge class="texto1" color ="success">Dragão</ion-badge>
-        <br>
-        <ion-badge class="texto2" color ="success">voador</ion-badge>
-    </div>
-    </ion-label>
-    <ion-chip color ="success">
-      <ion-label>n° 373</ion-label>
-    </ion-chip>
-  </ion-item>
+    <ion-item routerLink="/passaro" lines="full">
+      <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lNC2Alq5CIIuPp1Bv0Y8hPHXZlP.jpg" alt="nao tem foto" class="filme">
+      <ion-label class ="ion-text-wrap">
+        <div>
+          <h3>Birdemic: Choque e Terror </h3>
+          <p class="data">27/02/2010 (BR)</p>
+          <ion-badge color="cinza">ficção cientifica </ion-badge><br>
+          <ion-badge color="cinza">terror</ion-badge>
+        </div>
+      </ion-label>
+      <ion-chip class="nota" color="danger" outline>
+        <ion-label>22%</ion-label>
+      </ion-chip>
+    </ion-item>
+
+    <ion-item routerLink="/espaco" lines="full">
+      <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vXjHtOAHNkK6RjtzLd3cGqUP6Bj.jpg" alt="nao tem foto" class="filme">
+      <ion-label class ="ion-text-wrap">
+        <div>
+          <h3>Space Jam: O Jogo do Século </h3>
+          <p class="data">25/12/1996 (BR)</p>
+          <ion-badge color="cinza">Comédia </ion-badge><br>
+          <ion-badge color="cinza">Família</ion-badge>
+          <ion-badge color="cinza"> Animação</ion-badge>
+          <ion-badge color="cinza">Ficção científica</ion-badge>
+        </div>
+      </ion-label>
+      <ion-chip class="nota" color="warning" outline>
+        <ion-label>69%</ion-label>
+      </ion-chip>
+    </ion-item>
+
+    <ion-item routerLink="/aranha" lines="full">
+      <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ybQSBSrINtjWsJQ6Ih8sva8HlEZ.jpg" alt="nao tem foto" class="filme">
+      <ion-label class ="ion-text-wrap">
+        <div>
+          <h3>Homem-Aranha: No Aranhaverso </h3>
+          <p class="data">10/01/2019 (BR)</p>
+          <ion-badge color="cinza">Comédia </ion-badge><br>
+          <ion-badge color="cinza">Ação </ion-badge><br>
+          <ion-badge color="cinza"> Aventura</ion-badge>
+          <ion-badge color="cinza"> Animação</ion-badge>
+          <ion-badge color="cinza">Ficção científica</ion-badge>
+        </div>
+      </ion-label>
+      <ion-chip class="nota" color="success" outline>
+        <ion-label>84%</ion-label>
+      </ion-chip>
+    </ion-item>
+  </ion-list>
+
+
+
+
+
+
+
 
 </ion-content>

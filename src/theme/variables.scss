@@ -3,6 +3,14 @@
 
 /** Ionic CSS Variables **/
 :root {
+  /* cinza */
+  --ion-color-cinza: #DCDCDC;
+  --ion-color-cinza-rgb: 220, 220, 220;
+  --ion-color-cinza-contrast: #000000;
+  --ion-color-cinza-contrast-rgb: 0, 0, 0;
+  --ion-color-cinza-shade: #dcdcdc;
+  --ion-color-cinza-tint: #dcdcdc;
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -74,6 +82,17 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+}
+
+
+.ion-color-cinza {
+  --ion-color-base: var(--ion-color-cinza);
+  --ion-color-base-rgb: var(--ion-color-cinza-rgb);
+  --ion-color-contrast: var(--ion-color-cinza-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-cinza-contrast-rgb);
+  --ion-color-shade: var(--ion-color-cinza-shade);
+  --ion-color-tint: var(--ion-color-cinza-tint);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -233,4 +252,5 @@
 
     --ion-card-background: #1e1e1e;
   }
+
 }

@@ -1,31 +1,33 @@
-.parada{
-  h1{
-    margin-top: 10px;
-    font-size: 15px;
-  }
-  p{
-    font-size: 15px;
-  }
-height: 85px;
-
+.seg{
+  margin-left: 5px;
 }
 
-.cadrado{
-border:2px solid rgb(121, 121, 121);
+ion-title{
+  text-align: center;
 }
 
-.texto1{
-    font-size: 12px;
-    color: black;
-
-      background-image: linear-gradient(rgb(47, 105, 230) 50%, rgb(253, 43, 43) 50%);
-
+h3{
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.texto2{
-  font-size: 12px;
-  color: black;
-
-    background-image: linear-gradient(rgb(79, 132, 248) 50%, rgb(112, 112, 112) 50%);
-
+.data{
+  font-size: 14px;
 }
+
+.filme{
+  height: 150px;
+  width: 100px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.nota{
+  border:dashed;
+  border-radius: 30px;
+  height:60px;
+  width:60px;
+  font-weight: bold;
+  font-size: 14px;
+ }
+

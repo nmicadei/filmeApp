@@ -5,7 +5,28 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
-  }
+  },
+  {
+    path: 'senhordosaneis',
+    loadChildren: () => import('./filmes/senhordosaneis/senhordosaneis.module').then( m => m.SenhordosaneisPageModule)
+  },  {
+    path: 'gemea',
+    loadChildren: () => import('./filmes/gemea/gemea.module').then( m => m.GemeaPageModule)
+  },
+  {
+    path: 'passaro',
+    loadChildren: () => import('./filmes/passaro/passaro.module').then( m => m.PassaroPageModule)
+  },
+  {
+    path: 'espaco',
+    loadChildren: () => import('./filmes/espaco/espaco.module').then( m => m.EspacoPageModule)
+  },
+  {
+    path: 'aranha',
+    loadChildren: () => import('./filmes/aranha/aranha.module').then( m => m.AranhaPageModule)
+  },
+
+
 ];
 @NgModule({
   imports: [
